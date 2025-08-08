@@ -1,0 +1,410 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Greetings",
+        "Hi there",
+        "Hey bot",
+        "Hello there",
+        "Howdy",
+        "What's up",
+        "Good morning",
+        "Good afternoon",
+        "Good evening"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting!",
+        "Hi there, how can I help you with your agricultural queries?",
+        "Hi there! Welcome to AgroFuture. What can I do for you today?",
+        "Greetings! How may I assist your farming needs?",
+        "Hello! Ready to help with your agro queries."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "I'm leaving",
+        "Talk to you later",
+        "Adios",
+        "Farewell",
+        "Catch you later",
+        "So long"
+      ],
+      "responses": [
+        "See you later, thanks for visiting AgroFuture!",
+        "Have a nice day on your farm!",
+        "Bye! Come back again soon for more agricultural insights.",
+        "Goodbye! Happy farming!",
+        "Take care! Hope to see you again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!",
+        "Much appreciated",
+        "Thanks for the info",
+        "You're a great help",
+        "Cheers",
+        "Appreciate it"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time! Glad I could assist.",
+        "My pleasure. Feel free to ask more questions!",
+        "You're welcome!",
+        "Glad I could be of assistance."
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?",
+        "What agricultural products do you offer?",
+        "What farming supplies are available?",
+        "List your products",
+        "Tell me about your product range",
+        "What can I buy here?"
+      ],
+      "responses": [
+        "We offer a wide range of agricultural products including high-quality seeds, various types of fertilizers (organic and chemical), effective pesticides, and essential farming equipment. We also facilitate connections for fresh produce.",
+        "Our inventory primarily focuses on crop essentials like seeds for rice, wheat, vegetables, and specialized fertilizers. Additionally, you can find pest control solutions and equipment rentals.",
+        "You can find everything from crop seeds to advanced irrigation systems on our platform. We also connect buyers and sellers for fresh agricultural produce. What are you looking for specifically?",
+        "We have seeds, fertilizers, pesticides, and farming machinery. Browse our categories or tell me what you need!"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?",
+        "What payment methods do you accept?",
+        "How can I pay for products?",
+        "What payment options are there?",
+        "Can I use bKash/Nagad?",
+        "Do you have mobile banking payments?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard, American Express, and PayPal for online transactions. For local payments, bKash and Nagad are also available, and cash on delivery may be an option for certain services.",
+        "You can conveniently pay using major credit/debit cards or PayPal. We also support popular mobile banking services like bKash and Nagad.",
+        "Our payment options are flexible, including credit/debit cards, PayPal, bKash, and Nagad for your convenience."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?",
+        "What's your delivery time?",
+        "How long until my order arrives?",
+        "Shipping duration",
+        "Estimated delivery time",
+        "Delivery schedule"
+      ],
+      "responses": [
+        "Delivery for most agricultural products and supplies typically takes 2-4 business days, depending on your location within Bangladesh. Remote areas might take slightly longer.",
+        "Shipping usually takes between 2 to 4 days after order confirmation. For urgent deliveries, please contact our customer support for expedited options.",
+        "You can expect your order to arrive within 2 to 4 days. You'll receive tracking information once your order is dispatched."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?",
+        "Make me laugh",
+        "Cheer me up",
+        "Say something funny"
+      ],
+      "responses": [
+        "Why did the farmer win an award? Because he was outstanding in his field!",
+        "What do you call a cow with no legs? Ground beef!",
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "What do you call cheese that isn't yours? Nacho cheese!",
+        "Why did the scarecrow win an award? Because he was outstanding in his field!",
+        "What's a farmer's favorite type of music? Country."
+      ]
+    },
+    {
+      "tag": "crop_info",
+      "patterns": [
+        "Tell me about rice cultivation",
+        "How to grow potatoes?",
+        "Best practices for wheat farming",
+        "Information on tomato crops",
+        "What grows well in my area?",
+        "Crop specific advice",
+        "Cultivation guide for [crop name]",
+        "How to plant corn?",
+        "When to harvest jute?",
+        "Growing season for [crop]"
+      ],
+      "responses": [
+        "Please specify which crop you'd like to know about (e.g., 'rice', 'wheat', 'potatoes'). We can provide details on optimal cultivation conditions, planting techniques, and common issues.",
+        "For specific crop information, could you tell me the crop name? E.g., 'Tell me about cultivating rice.'",
+        "We have extensive information on various crops. Which crop are you interested in learning about? We cover planting, harvesting, and care tips.",
+        "Tell me the crop, and I can provide general guidelines. For highly detailed advice, consider our expert consultation service."
+      ]
+    },
+    {
+      "tag": "pest_disease",
+      "patterns": [
+        "How to deal with aphids?",
+        "My crops have blight, what should I do?",
+        "Common diseases in rice plants",
+        "Pest control for vegetables",
+        "Help with plant diseases",
+        "Insect problems on my farm",
+        "Fungus on my plants",
+        "Identify pest on [crop]",
+        "Organic pest control"
+      ],
+      "responses": [
+        "To provide accurate advice, please tell me which crop is affected and what symptoms you are observing. We can then suggest appropriate pest or disease management strategies or direct you to specific products.",
+        "Dealing with pests and diseases requires specific identification. Can you describe the issue or the type of plant affected? For severe cases, consider an expert consultation.",
+        "We offer solutions for common agricultural pests and diseases. Describe your problem, and I'll try to help. We also have a range of organic and chemical pesticides.",
+        "Early detection is key! What kind of damage are you seeing on your plants? Is it insects, spots, or wilting?"
+      ]
+    },
+    {
+      "tag": "soil_health",
+      "patterns": [
+        "How to improve soil fertility?",
+        "What is soil testing?",
+        "Importance of organic matter in soil",
+        "Tips for healthy soil",
+        "Soil enrichment techniques",
+        "How to balance soil pH?",
+        "What type of fertilizer for [soil type]?",
+        "Composting for soil health"
+      ],
+      "responses": [
+        "Improving soil fertility often involves adding organic matter, balanced fertilization based on soil tests, and proper crop rotation. Soil testing helps identify nutrient deficiencies and adjust pH.",
+        "Soil health is crucial! We recommend regular soil testing to understand its composition and nutrient levels. Organic composting and using bio-fertilizers can significantly enhance fertility.",
+        "Maintaining good soil health is key to productive farming. Practices like crop rotation, cover cropping, composting, and responsible fertilizer use are highly beneficial. We can also guide you on pH management."
+      ]
+    },
+    {
+      "tag": "weather_advice",
+      "patterns": [
+        "What's the weather like for farming today?",
+        "Weather forecast for agriculture",
+        "Is it going to rain soon?",
+        "How does weather affect my crops?",
+        "Agricultural weather updates",
+        "Current temperature for [city]",
+        "Rainfall prediction",
+        "Weather for planting"
+      ],
+      "responses": [
+        "For real-time and forecasted weather information crucial for your farming activities, please check our 'Weather Updates' page directly from the navigation menu.",
+        "I can't give you live weather updates directly here, but our 'Weather Updates' feature on the platform provides crucial information for planning your farm tasks like planting, spraying, or harvesting.",
+        "Weather is vital for farming! Our dedicated 'Weather Updates' section can provide detailed forecasts for your location. It's designed to help you make informed decisions."
+      ]
+    },
+    {
+      "tag": "equipment_rental",
+      "patterns": [
+        "How to rent farm equipment?",
+        "What machinery can I rent?",
+        "Tractor rental near me",
+        "Rent agricultural tools",
+        "List of available equipment for rent",
+        "Combine harvester rental",
+        "How much to rent a power tiller?"
+      ],
+      "responses": [
+        "You can rent various farming equipment like tractors, tillers, harvesters, and irrigation pumps through our 'Farming Equipment Rental' page. Just browse the listings or list your own!",
+        "Visit our 'Rent' section to find a wide range of agricultural machinery available for rent. You can filter by equipment type, location, and price. It's a great way to access costly tools.",
+        "We connect farmers for equipment rental, making high-cost machinery accessible. Check the 'Rent Equipment' page for available tools and machinery near you."
+      ]
+    },
+    {
+      "tag": "storehouse_rental",
+      "patterns": [
+        "How can I rent a storehouse?",
+        "Storage facility for crops",
+        "Warehouse for rent",
+        "Need a place to store my harvest",
+        "Propose storehouse rental",
+        "Cold storage options",
+        "Where to store my produce?"
+      ],
+      "responses": [
+        "If you need to rent a storehouse or want to list one, please visit our 'Storehouse Rental' page. You can submit a proposal or browse available storage facilities there, including options for different storage needs.",
+        "Our platform helps you find or offer storehouses for rent. Look under the 'Storehouse Rental' section for options that fit your capacity and location requirements.",
+        "To find or list a storehouse, navigate to the 'Storehouse Rental' page where you can see all current proposals. This is ideal for managing post-harvest storage."
+      ]
+    },
+    {
+      "tag": "market_prices",
+      "patterns": [
+        "What are the current market prices for rice?",
+        "Prices for vegetables today",
+        "Market rates for agricultural produce",
+        "Current crop prices",
+        "Selling prices for my harvest",
+        "Price of [crop] in [city]",
+        "Latest market trends for farming goods"
+      ],
+      "responses": [
+        "We provide up-to-date market price information for various agricultural commodities. Which produce or crop are you interested in knowing the price for?",
+        "Knowing market prices is key for selling your produce effectively! Please tell me the specific crop or produce, and I'll provide the latest available rates from our data.",
+        "Our platform connects you with the latest market prices to help you get the best value for your harvest. Which item would you like to check today?"
+      ]
+    },
+    {
+      "tag": "expert_advice",
+      "patterns": [
+        "Can I get agricultural consultation?",
+        "How to talk to an agro expert?",
+        "Need advice on my farm",
+        "Connect with a farming consultant",
+        "Agro consultancy services",
+        "Who can help with my crop issue?",
+        "Get professional farming advice"
+      ],
+      "responses": [
+        "Yes, we offer professional agro consulting services! Visit our 'Agro Consultancy' page (linked from the home page or dashboard) to connect with experts who can provide personalized guidance.",
+        "For expert guidance, our platform provides access to experienced agricultural consultants. They can help with crop diseases, soil issues, or general farm planning. Check out our consultancy section.",
+        "We empower farmers with expert advice. You can find details on how to get in touch with our agro consultants through the platform for specialized support."
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "Where is my order?",
+        "Check my order status",
+        "Track my delivery",
+        "My recent purchases",
+        "What's the status of my order?",
+        "Has my fertilizer arrived?",
+        "Order history"
+      ],
+      "responses": [
+        "You can view your past orders and track current shipments on your 'Order' page. Just log in and navigate to the 'Orders' section for real-time updates.",
+        "To check the status of your order, please visit the 'Order' page in your user dashboard. All your purchase history and tracking details will be conveniently listed there.",
+        "Your order history and tracking details are available on the 'Order' page. If you have a specific order number, I can look into it for you, but it's best to check the portal for direct access."
+      ]
+    },
+    {
+      "tag": "blog_news",
+      "patterns": [
+        "Read farming blogs",
+        "Latest agricultural news",
+        "Where can I find farming tips?",
+        "Agro news updates",
+        "Share my farming story",
+        "New articles on farming",
+        "Stay updated on agriculture"
+      ],
+      "responses": [
+        "Explore the latest agricultural news, farming tips, and success stories on our 'Blog' page. You can also share your own experiences and contribute to the community!",
+        "Our 'Blog' section is a great resource for farming knowledge and community stories. Feel free to browse articles on various topics or contribute your own insights!",
+        "Stay informed with our agro blog, full of articles and insights on modern farming techniques, market trends, and success stories from other farmers. You can find it under the 'Blog' section."
+      ]
+    },
+    {
+      "tag": "contact_support",
+      "patterns": [
+        "How can I contact support?",
+        "Need help",
+        "Support hotline",
+        "Customer service",
+        "I have a problem",
+        "Contact AgroFuture",
+        "Customer care number",
+        "Technical support"
+      ],
+      "responses": [
+        "You can reach our support team via our 'Contact Us' page or by calling our hotline: +880 1700-123456. Email support is also available at support@agrofuture.com. We're here 24/7!",
+        "Our support team is available to assist you. Please visit the 'Contact Us' section for all contact details or use the provided hotline and email for immediate assistance.",
+        "For any issues or questions, feel free to contact us through the 'Contact Us' page or directly via phone/email mentioned there. We aim to respond promptly."
+      ]
+    },
+    {
+      "tag": "about_agroland",
+      "patterns": [
+        "What is AgroFuture?",
+        "Tell me about your platform",
+        "What does AgroLand do?",
+        "Mission of AgroFuture",
+        "About your services",
+        "Who are you?",
+        "What is your purpose?"
+      ],
+      "responses": [
+        "AgroFuture aims to empower farmers with technology, connecting them to smart tools, weather alerts, market prices, expert advice, and a community to share knowledge. We're revolutionizing agriculture!",
+        "We are a comprehensive platform dedicated to transforming farming by providing essential resources and services for smarter, sustainable agriculture in Bangladesh and beyond.",
+        "AgroFuture is designed to support farmers by offering tools for equipment rental, storehouse rental, real-time weather updates, expert consultations, and a vibrant blog community for knowledge sharing and growth."
+      ]
+    },
+    {
+      "tag": "account_management",
+      "patterns": [
+        "How to change my password?",
+        "Update my profile",
+        "Can I change my email?",
+        "Manage my account details",
+        "Edit my information"
+      ],
+      "responses": [
+        "You can manage your account details, including changing your password and updating your profile information, from your 'Dashboard' settings after logging in.",
+        "To update your personal or contact information, please log into your account and navigate to the profile section in the dashboard.",
+        "Account management options like password changes are available in your user dashboard. For email changes, you may need to contact support."
+      ]
+    },
+    {
+      "tag": "registration_login",
+      "patterns": [
+        "How do I create an account?",
+        "Signup process",
+        "Register on AgroFuture",
+        "Make a new account",
+        "How to log in?",
+        "Login issues",
+        "Forgot my password"
+      ],
+      "responses": [
+        "To sign up, click the 'Register' button on the homepage and fill out the form. You can select your user type: Farmer, Buyer, or Seller. For login, use the 'Login' page.",
+        "Creating an account is easy. Just provide your details, set a password, and verify. If you forgot your password, use the 'Forgot Password?' link on the login page.",
+        "The registration and login links are available in the top right corner of the page. Follow the prompts to create or access your account."
+      ]
+    },
+    {
+      "tag": "ai_recommendations",
+      "patterns": [
+        "What are AI recommendations?",
+        "How can AI help my farm?",
+        "AI for crop optimization",
+        "Get AI farming advice",
+        "AI pest identification"
+      ],
+      "responses": [
+        "Our AI Recommendations feature provides data-driven insights for crop management, pest control, fertilizer application, and yield optimization, helping you make smarter farming decisions.",
+        "AI can analyze various factors like soil data, weather patterns, and crop health to give you personalized suggestions for improving your farm's productivity. Check out the 'AI Recommendations' page!",
+        "The AI on our platform is designed to offer smart advice for better farming practices, including early detection of issues and optimal resource utilization. Visit the 'AI Recommendations' section."
+      ]
+    }
+  ]
+}
