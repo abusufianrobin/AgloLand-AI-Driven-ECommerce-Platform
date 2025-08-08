@@ -16,7 +16,7 @@ const WeatherUpdatesPage = () => {
   // >>> IMPORTANT: PASTE YOUR ACTUAL OPENWEATHERMAP API KEY HERE <<<
   // You can get a free API key from https://openweathermap.org/api
   // New keys can take up to 2 hours to activate.
-  const API_KEY = 'e84682b40cce2f53397c9ee8e1331a87'; // THIS IS A PLACEHOLDER. REPLACE WITH YOUR REAL KEY.
+  const API_KEY = // THIS IS A PLACEHOLDER. REPLACE WITH YOUR REAL KEY.
 
   const [city, setCity] = useState('');
   const [weatherData, setWeatherData] = useState(null);
@@ -36,7 +36,7 @@ const WeatherUpdatesPage = () => {
     // --- CORRECTED API KEY VALIDATION LOGIC ---
     // This check now correctly identifies if the placeholder is still present
     // or if the key entered is suspiciously short.
-    if (API_KEY === 'e84682b40cce2f53397c9ee8e1331a87' || API_KEY.length < 20) {
+    if (API_KEY ===  || API_KEY.length < 20) {
         setError("OpenWeatherMap API Key is missing or invalid. Please configure it correctly in WeatherUpdatesPage.jsx. See instructions in the code.");
         setLoading(false);
         setWeatherData(null);
