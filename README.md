@@ -48,3 +48,17 @@ A dedicated section where users can read, write, and share blog posts
 related to agriculture, fostering knowledge exchange and community engagement. Posts are 
 persisted locally. 
 <img width="830" height="561" alt="Blog Writing" src="https://github.com/user-attachments/assets/ba535b6b-dc43-4ac1-99f1-8f636445a7be" />
+ <h2 style="color:#2a72e5; font-weight:bold; text-decoration:underline;">
+  Weather Update
+</h2> 
+Located on the dashboard, this feature allows users to search for a city's 
+weather information (currently simulated for "Dhaka" and "Chittagong"), providing crucial data for farming decisions.
+
+<img width="487" height="578" alt="Weather Update" src="https://github.com/user-attachments/assets/e47e6c30-92bf-49a3-b71e-728d2f8e850c" />
+  <h2 style="color:#2a72e5; font-weight:bold; text-decoration:underline;">
+  Help Bot
+</h2> 
+ A future feature that will offer an AI-powered chatbot for instant answers to farming 
+queries, troubleshooting, and general guidance. 
+<img width="258" height="401" alt="AI Chat Support" src="https://github.com/user-attachments/assets/b8fa7775-093b-4056-9fda-456535a52bf8" />
+
